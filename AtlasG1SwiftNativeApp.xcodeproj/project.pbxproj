@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FF64DBB2D70149A003E56B1 /* LocalDevelopment.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6FF64DBA2D70149A003E56B1 /* LocalDevelopment.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FED94DB2D6A529300744E79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FED94C22D6A529100744E79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FED94C92D6A529100744E79;
+			remoteInfo = G1TestApp;
+		};
+		6FED94E52D6A529300744E79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FED94C22D6A529100744E79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FED94C92D6A529100744E79;
+			remoteInfo = G1TestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FED94CA2D6A529100744E79 /* AtlasG1SwiftNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlasG1SwiftNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FED94DA2D6A529300744E79 /* AtlasG1SwiftNativeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlasG1SwiftNativeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FED94E42D6A529300744E79 /* AtlasG1SwiftNativeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlasG1SwiftNativeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF64DBA2D70149A003E56B1 /* LocalDevelopment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LocalDevelopment.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FED94CC2D6A529100744E79 /* G1TestApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = G1TestApp;
+			sourceTree = "<group>";
+		};
+		6FED94DD2D6A529300744E79 /* G1TestAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = G1TestAppTests;
+			sourceTree = "<group>";
+		};
+		6FED94E72D6A529300744E79 /* G1TestAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = G1TestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FED94C72D6A529100744E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED94D72D6A529300744E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED94E12D6A529300744E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FED94C12D6A529100744E79 = {
+			isa = PBXGroup;
+			children = (
+				6FF64DBA2D70149A003E56B1 /* LocalDevelopment.xcconfig */,
+				6FED94CC2D6A529100744E79 /* G1TestApp */,
+				6FED94DD2D6A529300744E79 /* G1TestAppTests */,
+				6FED94E72D6A529300744E79 /* G1TestAppUITests */,
+				6FED94CB2D6A529100744E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FED94CB2D6A529100744E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FED94CA2D6A529100744E79 /* AtlasG1SwiftNativeApp.app */,
+				6FED94DA2D6A529300744E79 /* AtlasG1SwiftNativeAppTests.xctest */,
+				6FED94E42D6A529300744E79 /* AtlasG1SwiftNativeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FED94C92D6A529100744E79 /* AtlasG1SwiftNativeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FED94EE2D6A529300744E79 /* Build configuration list for PBXNativeTarget "AtlasG1SwiftNativeApp" */;
+			buildPhases = (
+				6FED94C62D6A529100744E79 /* Sources */,
+				6FED94C72D6A529100744E79 /* Frameworks */,
+				6FED94C82D6A529100744E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6FED94CC2D6A529100744E79 /* G1TestApp */,
+			);
+			name = AtlasG1SwiftNativeApp;
+			packageProductDependencies = (
+			);
+			productName = G1TestApp;
+			productReference = 6FED94CA2D6A529100744E79 /* AtlasG1SwiftNativeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FED94D92D6A529300744E79 /* AtlasG1SwiftNativeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FED94F12D6A529300744E79 /* Build configuration list for PBXNativeTarget "AtlasG1SwiftNativeAppTests" */;
+			buildPhases = (
+				6FED94D62D6A529300744E79 /* Sources */,
+				6FED94D72D6A529300744E79 /* Frameworks */,
+				6FED94D82D6A529300744E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FED94DC2D6A529300744E79 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FED94DD2D6A529300744E79 /* G1TestAppTests */,
+			);
+			name = AtlasG1SwiftNativeAppTests;
+			packageProductDependencies = (
+			);
+			productName = G1TestAppTests;
+			productReference = 6FED94DA2D6A529300744E79 /* AtlasG1SwiftNativeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FED94E32D6A529300744E79 /* AtlasG1SwiftNativeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FED94F42D6A529300744E79 /* Build configuration list for PBXNativeTarget "AtlasG1SwiftNativeAppUITests" */;
+			buildPhases = (
+				6FED94E02D6A529300744E79 /* Sources */,
+				6FED94E12D6A529300744E79 /* Frameworks */,
+				6FED94E22D6A529300744E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FED94E62D6A529300744E79 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FED94E72D6A529300744E79 /* G1TestAppUITests */,
+			);
+			name = AtlasG1SwiftNativeAppUITests;
+			packageProductDependencies = (
+			);
+			productName = G1TestAppUITests;
+			productReference = 6FED94E42D6A529300744E79 /* AtlasG1SwiftNativeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FED94C22D6A529100744E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6FED94C92D6A529100744E79 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6FED94D92D6A529300744E79 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6FED94C92D6A529100744E79;
+					};
+					6FED94E32D6A529300744E79 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6FED94C92D6A529100744E79;
+					};
+				};
+			};
+			buildConfigurationList = 6FED94C52D6A529100744E79 /* Build configuration list for PBXProject "AtlasG1SwiftNativeApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FED94C12D6A529100744E79;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6FED94CB2D6A529100744E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FED94C92D6A529100744E79 /* AtlasG1SwiftNativeApp */,
+				6FED94D92D6A529300744E79 /* AtlasG1SwiftNativeAppTests */,
+				6FED94E32D6A529300744E79 /* AtlasG1SwiftNativeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FED94C82D6A529100744E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF64DBB2D70149A003E56B1 /* LocalDevelopment.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED94D82D6A529300744E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED94E22D6A529300744E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FED94C62D6A529100744E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED94D62D6A529300744E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FED94E02D6A529300744E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FED94DC2D6A529300744E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FED94C92D6A529100744E79 /* AtlasG1SwiftNativeApp */;
+			targetProxy = 6FED94DB2D6A529300744E79 /* PBXContainerItemProxy */;
+		};
+		6FED94E62D6A529300744E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FED94C92D6A529100744E79 /* AtlasG1SwiftNativeApp */;
+			targetProxy = 6FED94E52D6A529300744E79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FED94EC2D6A529300744E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF64DBA2D70149A003E56B1 /* LocalDevelopment.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FED94ED2D6A529300744E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF64DBA2D70149A003E56B1 /* LocalDevelopment.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FED94EF2D6A529300744E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"G1TestApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Require Bluetooth to contact your glasses.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FED94F02D6A529300744E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"G1TestApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Require Bluetooth to contact your glasses.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FED94F22D6A529300744E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DH5GPT3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtlasG1SwiftNativeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AtlasG1SwiftNativeApp";
+			};
+			name = Debug;
+		};
+		6FED94F32D6A529300744E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DH5GPT3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtlasG1SwiftNativeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AtlasG1SwiftNativeApp";
+			};
+			name = Release;
+		};
+		6FED94F52D6A529300744E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DH5GPT3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = G1TestApp;
+			};
+			name = Debug;
+		};
+		6FED94F62D6A529300744E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M4DH5GPT3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = G1TestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FED94C52D6A529100744E79 /* Build configuration list for PBXProject "AtlasG1SwiftNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FED94EC2D6A529300744E79 /* Debug */,
+				6FED94ED2D6A529300744E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FED94EE2D6A529300744E79 /* Build configuration list for PBXNativeTarget "AtlasG1SwiftNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FED94EF2D6A529300744E79 /* Debug */,
+				6FED94F02D6A529300744E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FED94F12D6A529300744E79 /* Build configuration list for PBXNativeTarget "AtlasG1SwiftNativeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FED94F22D6A529300744E79 /* Debug */,
+				6FED94F32D6A529300744E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FED94F42D6A529300744E79 /* Build configuration list for PBXNativeTarget "AtlasG1SwiftNativeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FED94F52D6A529300744E79 /* Debug */,
+				6FED94F62D6A529300744E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FED94C22D6A529100744E79 /* Project object */;
+}
